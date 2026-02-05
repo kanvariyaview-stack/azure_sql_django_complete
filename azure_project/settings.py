@@ -87,20 +87,33 @@ WSGI_APPLICATION = 'azure_project.wsgi.application'
 #         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
 #     }
 # }
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'mssql',
+#         'NAME': 'bearlab-sql-db',
+#         'USER': 'bearlab-admin',
+#         'PASSWORD': 'P@ss1234',
+#         'HOST': 'bearlab-sql-server.database.windows.net',
+#         'PORT': '1433',
+#         'OPTIONS': {
+#             'driver': 'ODBC Driver 18 for SQL Server',
+#         },
+#     },
+# }
+
 DATABASES = {
     'default': {
         'ENGINE': 'mssql',
-        'NAME': 'bearlab-sql-db',
-        'USER': 'bearlab-admin',
-        'PASSWORD': 'P@ss1234',
-        'HOST': 'bearlab-sql-server.database.windows.net',
+        'NAME': 'free-sql-db-8584132',
+        'USER': 'kanvariya-admin',
+        'PASSWORD': 'View2548',
+        'HOST': 'kanvariya-sql-sever.database.windows.net',
         'PORT': '1433',
         'OPTIONS': {
             'driver': 'ODBC Driver 18 for SQL Server',
         },
     },
 }
-
 
 import urllib.parse
 
